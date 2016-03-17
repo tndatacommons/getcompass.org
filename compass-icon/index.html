@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Icons?</title>
+<style type="text/css">
+  #viewport {
+    border: 1px solid #aaa;
+    margin: 100px auto 0 auto;
+    width: 387px;
+    height:387px;
+    background-image: url("icons.png");
+  }
+  p {line-height:1;text-align:center;padding:1.5em;}
+  p#name {font-size:80px;line-height:1;padding:0;margin:0;}
+  a {
+    text-decoration: none; display:inline-block;
+    min-width:30px;
+    font-size: 20px;
+    color:#55f;
+  }
+  p#buttonHolder > a {
+    border: 1px solid #aaa; background-color: #eee;
+    color: black;
+    width:100px;
+    padding: 1em;
+  }
+
+  .a {background-position: 0px 0px;}
+  .b {background-position: -420px 0px;}
+  .c {background-position: -840px 0px;}
+  .d {background-position: -1260px 0px;}
+  .e {background-position: -1680px 0px;}
+
+  .f {background-position: 0px -420px;}
+  .g {background-position: -420px -420px;}
+  .h {background-position: -840px -420px;}
+  .i {background-position: -1260px -420px;}
+  .j {background-position: -1680px -420px;}
+
+  .k {background-position: 0px -840px;}
+  .l {background-position: -420px -840px;}
+  .m {background-position: -840px -840px;}
+  .n {background-position: -1260px -840px;}
+
+</style>
+
+<script type="text/javascript">
+
+var current = 0;
+var styles = "abcdefghijklmn";
+
+
+function set(className) {
+  current = styles.indexOf(className);
+  document.getElementById('name').innerHTML = className;
+  document.getElementById('viewport').className = className;
+  return false;
+}
+
+function next() {
+
+  if(current >= 13) {
+    current = 0;
+  } else {
+    current += 1;
+  }
+  return set(styles[current]);
+}
+</script>
+</head>
+
+<body>
+  <div id="viewport"></div>
+  <p id="name">a</p>
+  <p id="buttonHolder"><a id="next" href="#" class="a" onclick="next();">Next</a></p>
+  <p>
+    <a href="#" onclick="set('a')">a</a> |
+    <a href="#" onclick="set('b')">b</a> |
+    <a href="#" onclick="set('c')">c</a> |
+    <a href="#" onclick="set('d')">d</a> |
+    <a href="#" onclick="set('e')">e</a> |
+    <a href="#" onclick="set('f')">f</a> |
+    <a href="#" onclick="set('g')">g</a> |
+    <a href="#" onclick="set('h')">h</a> |
+    <a href="#" onclick="set('i')">i</a> |
+    <a href="#" onclick="set('j')">j</a> |
+    <a href="#" onclick="set('k')">k</a> |
+    <a href="#" onclick="set('l')">l</a> |
+    <a href="#" onclick="set('m')">m</a> |
+    <a href="#" onclick="set('n')">n</a>
+  </p>
+</body>
+</html>
