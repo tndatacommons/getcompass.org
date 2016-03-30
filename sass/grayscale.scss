@@ -22,7 +22,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -63,7 +63,7 @@ img.screenshot {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(white, 0.3);
     text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: black;
     .navbar-toggle {
         padding: 4px 6px;
@@ -135,7 +135,7 @@ img.screenshot {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/500px-rockclimbing.jpg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -164,6 +164,8 @@ img.screenshot {
         }
     }
 }
+
+h1.brand-heading {text-transform: lowercase;}
 
 .btn-circle {
     width: 70px;
@@ -245,8 +247,8 @@ img.screenshot {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: white;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    color: black;
+    background: url(../img/500px-rowing.jpg) no-repeat center center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -279,7 +281,7 @@ img.screenshot {
 
 .btn {
     text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
