@@ -126,7 +126,9 @@ img.screenshot {
         font-size: 26px; } }
 
 h1.brand-heading {
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  font-family: "Nunito",Helvetica,Arial,sans-serif;
+  font-weight: 400; }
 
 .btn-circle {
   width: 70px;
