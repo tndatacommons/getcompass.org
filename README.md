@@ -12,3 +12,10 @@ Hosted with [surge.sh](http://surge.sh). To deploy:
 
 Copyright 2016 Tennessee Data Commons.
 All rights reserved.
+
+
+
+## Imagery
+
+* much of it is from [unspash](https://unsplash.com).
+* homepage image is [summer solo](https://marketplace.500px.com/photos/133324967/sunset-solo-by-chris-prescott) by Chris Prescott.
