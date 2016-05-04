@@ -14,6 +14,13 @@ Copyright 2016 Tennessee Data Commons.
 All rights reserved.
 
 
+## Deploy
+
+This is a completely static site hosted by [surge.sh](http://surge.sh/). To
+deploy, run:
+
+    surge -d getcompass.org
+
 
 ## Imagery
 
