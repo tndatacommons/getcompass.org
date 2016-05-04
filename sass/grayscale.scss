@@ -165,9 +165,14 @@ img.screenshot {
     }
 }
 
+// Intro-like classes w/ different background images.
 .study {
   @extend .intro;
   background-image: url(../img/study.jpg);
+}
+.station {
+  @extend .intro;
+  background-image: url(../img/station.jpg);
 }
 
 
@@ -265,11 +270,20 @@ h1.brand-heading {
     background-size: cover;
     -o-background-size: cover;
 }
+
+// overrides the download section w/ a specified solid background color
+
 .solid {
   @extend .download-section;
   background-image: none;
-  background-color: lighten($compassYellow, 20%);
+  &.orange {background-color: lighten($compassOrange, 20%);}
+  &.yellow {background-color: lighten($compassYellow, 20%);}
+  &.green {background-color: lighten($compassGreen, 20%);}
 }
+
+.orange {background-color: lighten($compassOrange, 20%);}
+.yellow {background-color: lighten($compassYellow, 20%);}
+.green {background-color: lighten($compassGreen, 20%);}
 
 @media(min-width:767px) {
     .content-section {

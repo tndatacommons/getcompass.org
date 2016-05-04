@@ -96,7 +96,7 @@ img.screenshot {
         background: black;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
 
-.intro, .study {
+.intro, .study, .station {
   display: table;
   width: 100%;
   height: auto;
@@ -109,24 +109,27 @@ img.screenshot {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
-  .intro .intro-body, .study .intro-body {
+  .intro .intro-body, .study .intro-body, .station .intro-body {
     display: table-cell;
     vertical-align: middle; }
-    .intro .intro-body .brand-heading, .study .intro-body .brand-heading {
+    .intro .intro-body .brand-heading, .study .intro-body .brand-heading, .station .intro-body .brand-heading {
       font-size: 40px; }
-    .intro .intro-body .intro-text, .study .intro-body .intro-text {
+    .intro .intro-body .intro-text, .study .intro-body .intro-text, .station .intro-body .intro-text {
       font-size: 18px; }
   @media (min-width: 768px) {
-    .intro, .study {
+    .intro, .study, .station {
       height: 100%;
       padding: 0; }
-      .intro .intro-body .brand-heading, .study .intro-body .brand-heading {
+      .intro .intro-body .brand-heading, .study .intro-body .brand-heading, .station .intro-body .brand-heading {
         font-size: 100px; }
-      .intro .intro-body .intro-text, .study .intro-body .intro-text {
+      .intro .intro-body .intro-text, .study .intro-body .intro-text, .station .intro-body .intro-text {
         font-size: 26px; } }
 
 .study {
   background-image: url(../img/study.jpg); }
+
+.station {
+  background-image: url(../img/station.jpg); }
 
 h1.brand-heading {
   text-transform: lowercase;
@@ -200,8 +203,22 @@ h1.brand-heading {
   -o-background-size: cover; }
 
 .solid {
-  background-image: none;
+  background-image: none; }
+  .solid.orange {
+    background-color: #ffcc83; }
+  .solid.yellow {
+    background-color: #ffe38f; }
+  .solid.green {
+    background-color: #acdaae; }
+
+.orange {
+  background-color: #ffcc83; }
+
+.yellow {
   background-color: #ffe38f; }
+
+.green {
+  background-color: #acdaae; }
 
 @media (min-width: 767px) {
   .content-section {
