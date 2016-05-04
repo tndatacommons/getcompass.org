@@ -96,7 +96,7 @@ img.screenshot {
         background: black;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
 
-.intro, .study, .station {
+.intro, .study, .station, .stargazer, .graduation, .children {
   display: table;
   width: 100%;
   height: auto;
@@ -109,20 +109,20 @@ img.screenshot {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
-  .intro .intro-body, .study .intro-body, .station .intro-body {
+  .intro .intro-body, .study .intro-body, .station .intro-body, .stargazer .intro-body, .graduation .intro-body, .children .intro-body {
     display: table-cell;
     vertical-align: middle; }
-    .intro .intro-body .brand-heading, .study .intro-body .brand-heading, .station .intro-body .brand-heading {
+    .intro .intro-body .brand-heading, .study .intro-body .brand-heading, .station .intro-body .brand-heading, .stargazer .intro-body .brand-heading, .graduation .intro-body .brand-heading, .children .intro-body .brand-heading {
       font-size: 40px; }
-    .intro .intro-body .intro-text, .study .intro-body .intro-text, .station .intro-body .intro-text {
+    .intro .intro-body .intro-text, .study .intro-body .intro-text, .station .intro-body .intro-text, .stargazer .intro-body .intro-text, .graduation .intro-body .intro-text, .children .intro-body .intro-text {
       font-size: 18px; }
   @media (min-width: 768px) {
-    .intro, .study, .station {
+    .intro, .study, .station, .stargazer, .graduation, .children {
       height: 100%;
       padding: 0; }
-      .intro .intro-body .brand-heading, .study .intro-body .brand-heading, .station .intro-body .brand-heading {
+      .intro .intro-body .brand-heading, .study .intro-body .brand-heading, .station .intro-body .brand-heading, .stargazer .intro-body .brand-heading, .graduation .intro-body .brand-heading, .children .intro-body .brand-heading {
         font-size: 100px; }
-      .intro .intro-body .intro-text, .study .intro-body .intro-text, .station .intro-body .intro-text {
+      .intro .intro-body .intro-text, .study .intro-body .intro-text, .station .intro-body .intro-text, .stargazer .intro-body .intro-text, .graduation .intro-body .intro-text, .children .intro-body .intro-text {
         font-size: 26px; } }
 
 .study {
@@ -130,6 +130,15 @@ img.screenshot {
 
 .station {
   background-image: url(../img/station.jpg); }
+
+.stargazer {
+  background-image: url(../img/stargazer.jpg); }
+
+.graduation {
+  background-image: url(../img/graduation.jpg); }
+
+.children {
+  background-image: url(../img/children.jpg); }
 
 h1.brand-heading {
   text-transform: lowercase;
@@ -219,6 +228,18 @@ h1.brand-heading {
 
 .green {
   background-color: #acdaae; }
+
+.red {
+  background-color: #f3a29c; }
+
+.violet {
+  background-color: #a683ce; }
+
+.purple {
+  background-color: #ca74d8; }
+
+.magenta {
+  background-color: #f386ab; }
 
 @media (min-width: 767px) {
   .content-section {

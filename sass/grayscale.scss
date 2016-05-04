@@ -174,6 +174,18 @@ img.screenshot {
   @extend .intro;
   background-image: url(../img/station.jpg);
 }
+.stargazer {
+  @extend .intro;
+  background-image: url(../img/stargazer.jpg);
+}
+.graduation {
+  @extend .intro;
+  background-image: url(../img/graduation.jpg);
+}
+.children {
+  @extend .intro;
+  background-image: url(../img/children.jpg);
+}
 
 
 h1.brand-heading {
@@ -284,6 +296,10 @@ h1.brand-heading {
 .orange {background-color: lighten($compassOrange, 20%);}
 .yellow {background-color: lighten($compassYellow, 20%);}
 .green {background-color: lighten($compassGreen, 20%);}
+.red {background-color: lighten($compassRed, 20%);}
+.violet {background-color: lighten($compassViolet, 20%);}
+.purple {background-color: lighten($compassPurple, 20%);}
+.magenta {background-color: lighten($compassMagenta, 20%);}
 
 @media(min-width:767px) {
     .content-section {
