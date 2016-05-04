@@ -165,6 +165,12 @@ img.screenshot {
     }
 }
 
+.study {
+  @extend .intro;
+  background-image: url(../img/study.jpg);
+}
+
+
 h1.brand-heading {
   text-transform: lowercase;
   font-family: "Nunito",Helvetica,Arial,sans-serif;
@@ -258,6 +264,11 @@ h1.brand-heading {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.solid {
+  @extend .download-section;
+  background-image: none;
+  background-color: lighten($compassYellow, 20%);
 }
 
 @media(min-width:767px) {
