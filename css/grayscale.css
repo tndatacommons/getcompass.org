@@ -43,6 +43,9 @@ a {
 .light {
   font-weight: 400; }
 
+.centered {
+  text-align: center; }
+
 img.screenshot {
   margin-top: -40px; }
 
