@@ -11,6 +11,12 @@ function collapseNavbar() {
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
+
+    if($("#logo").is(":hidden")) {
+        $("#logo").fadeIn();
+    } else if(window.scrollY === 0) {
+        $("#logo").fadeOut();
+    }
 }
 
 $(window).scroll(collapseNavbar);
@@ -25,6 +31,8 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    // Hide the logo initially.
+    $("#logo").hide();
 });
 
 // Closes the Responsive Menu on Menu Item Click
