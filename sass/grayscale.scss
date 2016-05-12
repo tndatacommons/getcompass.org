@@ -188,7 +188,18 @@ img.screenshot {
   @extend .intro;
   background-image: url(../img/children.jpg);
 }
-
+.wellness {
+  @extend .intro;
+  background-image: url(../img/wellness.jpg);
+}
+.happy {
+  @extend .intro;
+  background-image: url(../img/be-happy.jpg);
+}
+.work {
+  @extend .intro;
+  background-image: url(../img/enjoy-work.jpg);
+}
 
 h1.brand-heading {
   text-transform: lowercase;

@@ -99,7 +99,7 @@ img.screenshot {
         background: black;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3); } }
 
-.intro, .study, .station, .stargazer, .graduation, .children {
+.intro, .study, .station, .stargazer, .graduation, .children, .wellness, .happy, .work {
   display: table;
   width: 100%;
   height: auto;
@@ -112,20 +112,20 @@ img.screenshot {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
-  .intro .intro-body, .study .intro-body, .station .intro-body, .stargazer .intro-body, .graduation .intro-body, .children .intro-body {
+  .intro .intro-body, .study .intro-body, .station .intro-body, .stargazer .intro-body, .graduation .intro-body, .children .intro-body, .wellness .intro-body, .happy .intro-body, .work .intro-body {
     display: table-cell;
     vertical-align: middle; }
-    .intro .intro-body .brand-heading, .study .intro-body .brand-heading, .station .intro-body .brand-heading, .stargazer .intro-body .brand-heading, .graduation .intro-body .brand-heading, .children .intro-body .brand-heading {
+    .intro .intro-body .brand-heading, .study .intro-body .brand-heading, .station .intro-body .brand-heading, .stargazer .intro-body .brand-heading, .graduation .intro-body .brand-heading, .children .intro-body .brand-heading, .wellness .intro-body .brand-heading, .happy .intro-body .brand-heading, .work .intro-body .brand-heading {
       font-size: 40px; }
-    .intro .intro-body .intro-text, .study .intro-body .intro-text, .station .intro-body .intro-text, .stargazer .intro-body .intro-text, .graduation .intro-body .intro-text, .children .intro-body .intro-text {
+    .intro .intro-body .intro-text, .study .intro-body .intro-text, .station .intro-body .intro-text, .stargazer .intro-body .intro-text, .graduation .intro-body .intro-text, .children .intro-body .intro-text, .wellness .intro-body .intro-text, .happy .intro-body .intro-text, .work .intro-body .intro-text {
       font-size: 18px; }
   @media (min-width: 768px) {
-    .intro, .study, .station, .stargazer, .graduation, .children {
+    .intro, .study, .station, .stargazer, .graduation, .children, .wellness, .happy, .work {
       height: 100%;
       padding: 0; }
-      .intro .intro-body .brand-heading, .study .intro-body .brand-heading, .station .intro-body .brand-heading, .stargazer .intro-body .brand-heading, .graduation .intro-body .brand-heading, .children .intro-body .brand-heading {
+      .intro .intro-body .brand-heading, .study .intro-body .brand-heading, .station .intro-body .brand-heading, .stargazer .intro-body .brand-heading, .graduation .intro-body .brand-heading, .children .intro-body .brand-heading, .wellness .intro-body .brand-heading, .happy .intro-body .brand-heading, .work .intro-body .brand-heading {
         font-size: 100px; }
-      .intro .intro-body .intro-text, .study .intro-body .intro-text, .station .intro-body .intro-text, .stargazer .intro-body .intro-text, .graduation .intro-body .intro-text, .children .intro-body .intro-text {
+      .intro .intro-body .intro-text, .study .intro-body .intro-text, .station .intro-body .intro-text, .stargazer .intro-body .intro-text, .graduation .intro-body .intro-text, .children .intro-body .intro-text, .wellness .intro-body .intro-text, .happy .intro-body .intro-text, .work .intro-body .intro-text {
         font-size: 26px; } }
 
 .study {
@@ -142,6 +142,15 @@ img.screenshot {
 
 .children {
   background-image: url(../img/children.jpg); }
+
+.wellness {
+  background-image: url(../img/wellness.jpg); }
+
+.happy {
+  background-image: url(../img/be-happy.jpg); }
+
+.work {
+  background-image: url(../img/enjoy-work.jpg); }
 
 h1.brand-heading {
   text-transform: lowercase;
