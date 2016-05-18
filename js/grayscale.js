@@ -1,7 +1,11 @@
 /*!
+ *
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * NOTE: this file has been modified from the original.
+ *
  */
 
 // jQuery to collapse the navbar on scroll
@@ -40,4 +44,27 @@ $('.navbar-collapse ul li a').click(function() {
   if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
     $('.navbar-toggle:visible').click();
   }
+});
+
+
+/*
+ * GA event tracking for download button clicks.
+ *
+ * Requires that the <a> element on each page include the following:
+ *
+ *  id="download-link"
+ *  data-value="1"  <-- must be an integer (default = 1)
+ *
+ */
+function handleOutboundLinkClicks(event) {
+  ga('send', 'event', {
+    eventCategory: 'Download',
+    eventAction: 'click',
+    eventLabel: event.target.href,
+    eventValue: parseInt($(this).data("value")) || 1,
+    transport: "beacon",
+  });
+}
+$(document).ready(function() {
+  $("#download-link").click(handleOutboundLinkClicks);
 });
