@@ -282,6 +282,16 @@ h1.brand-heading {
     color: black;
     background-color: #38A2F4; }
 
+.btn-green {
+  border: 1px solid #66BA69;
+  color: #66BA69;
+  background-color: transparent; }
+  .btn-green:hover, .btn-green:focus {
+    border: 1px solid #66BA69;
+    outline: none;
+    color: black;
+    background-color: #66BA69; }
+
 ul.banner-social-buttons {
   margin-top: 0; }
   @media (max-width: 1199px) {

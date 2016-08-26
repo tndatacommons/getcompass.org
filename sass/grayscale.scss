@@ -352,6 +352,19 @@ h1.brand-heading {
     }
 }
 
+.btn-green {
+    border: 1px solid $compassGreen;
+    color: $compassGreen;
+    background-color: transparent;
+    &:hover,
+    &:focus {
+        border: 1px solid $compassGreen;
+        outline: none;
+        color: black;
+        background-color: $compassGreen;
+    }
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
     @media(max-width:1199px) {
