@@ -215,7 +215,7 @@ h1.brand-heading {
 .download-section, .solid {
   width: 100%;
   padding: 50px 0;
-  color: black;
+  color: white;
   background: url(../img/download-bg.jpg) no-repeat center center scroll;
   background-color: white;
   -webkit-background-size: cover;
@@ -224,7 +224,8 @@ h1.brand-heading {
   -o-background-size: cover; }
 
 .solid {
-  background-image: none; }
+  background-image: none;
+  color: black; }
   .solid.orange {
     background-color: #ffebd0; }
   .solid.yellow {
@@ -283,13 +284,21 @@ h1.brand-heading {
     background-color: #38A2F4; }
 
 .btn-green {
-  border: 1px solid #66BA69;
+  border-color: #66BA69;
   color: #66BA69;
   background-color: transparent; }
   .btn-green:hover, .btn-green:focus {
-    border: 1px solid #66BA69;
-    outline: none;
+    border-color: #66BA69;
     color: black;
+    background-color: #66BA69; }
+
+.btn-solid {
+  border: 1px solid #38A2F4;
+  outline: none;
+  color: black;
+  background-color: #38A2F4; }
+  .btn-solid.btn-green {
+    border-color: #66BA69;
     background-color: #66BA69; }
 
 ul.banner-social-buttons {

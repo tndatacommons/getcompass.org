@@ -287,7 +287,7 @@ h1.brand-heading {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: black;
+    color: white;
     background: url(../img/download-bg.jpg) no-repeat center center scroll;
     background-color: white;
     -webkit-background-size: cover;
@@ -301,6 +301,7 @@ h1.brand-heading {
 .solid {
   @extend .download-section;
   background-image: none;
+  color: black;
   &.orange {background-color: lighten($compassOrange, 35%);}
   &.yellow {background-color: lighten($compassYellow, 35%);}
   &.green {background-color: lighten($compassGreen, 35%);}
@@ -353,15 +354,26 @@ h1.brand-heading {
 }
 
 .btn-green {
-    border: 1px solid $compassGreen;
+    border-color: $compassGreen;
     color: $compassGreen;
     background-color: transparent;
     &:hover,
     &:focus {
-        border: 1px solid $compassGreen;
-        outline: none;
+        border-color: $compassGreen;
         color: black;
         background-color: $compassGreen;
+    }
+}
+
+.btn-solid {
+    border: 1px solid $primary;
+    outline: none;
+    color: black;
+    background-color: $primary;
+
+    &.btn-green {
+      border-color: $compassGreen;
+      background-color: $compassGreen;
     }
 }
 
