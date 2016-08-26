@@ -301,18 +301,18 @@ h1.brand-heading {
 .solid {
   @extend .download-section;
   background-image: none;
-  &.orange {background-color: lighten($compassOrange, 20%);}
-  &.yellow {background-color: lighten($compassYellow, 20%);}
-  &.green {background-color: lighten($compassGreen, 20%);}
+  &.orange {background-color: lighten($compassOrange, 35%);}
+  &.yellow {background-color: lighten($compassYellow, 35%);}
+  &.green {background-color: lighten($compassGreen, 35%);}
 }
 
-.orange {background-color: lighten($compassOrange, 20%);}
-.yellow {background-color: lighten($compassYellow, 20%);}
-.green {background-color: lighten($compassGreen, 20%);}
-.red {background-color: lighten($compassRed, 20%);}
-.violet {background-color: lighten($compassViolet, 20%);}
-.purple {background-color: lighten($compassPurple, 20%);}
-.magenta {background-color: lighten($compassMagenta, 20%);}
+.orange {background-color: lighten($compassOrange, 35%);}
+.yellow {background-color: lighten($compassYellow, 35%);}
+.green {background-color: lighten($compassGreen, 35%);}
+.red {background-color: lighten($compassRed, 35%);}
+.violet {background-color: lighten($compassViolet, 35%);}
+.purple {background-color: lighten($compassPurple, 35%);}
+.magenta {background-color: lighten($compassMagenta, 35%);}
 
 @media(min-width:767px) {
     .content-section {

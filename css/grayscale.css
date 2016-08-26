@@ -226,32 +226,32 @@ h1.brand-heading {
 .solid {
   background-image: none; }
   .solid.orange {
-    background-color: #ffcc83; }
+    background-color: #ffebd0; }
   .solid.yellow {
-    background-color: #ffe38f; }
+    background-color: #fff6dc; }
   .solid.green {
-    background-color: #acdaae; }
+    background-color: #e1f1e2; }
 
 .orange {
-  background-color: #ffcc83; }
+  background-color: #ffebd0; }
 
 .yellow {
-  background-color: #ffe38f; }
+  background-color: #fff6dc; }
 
 .green {
-  background-color: #acdaae; }
+  background-color: #e1f1e2; }
 
 .red {
-  background-color: #f3a29c; }
+  background-color: #fbe2e0; }
 
 .violet {
-  background-color: #a683ce; }
+  background-color: #cdbae3; }
 
 .purple {
-  background-color: #ca74d8; }
+  background-color: #e1b0e9; }
 
 .magenta {
-  background-color: #f386ab; }
+  background-color: #faccdb; }
 
 @media (min-width: 767px) {
   .content-section {
